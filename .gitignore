@@ -1,0 +1,50 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories (go mod)
+# For Go 1.11+, this is not needed and can be commented out.
+# vendor/
+
+# IDE and editor configuration files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables file
+# It's a good practice to never commit .env files
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+
+# Compiled binary of our CLI
+# Adicionando o nome do nosso executável específico
+gambit
+gambit.exe
+gambit-* # Para binários de compilação cruzada (ex: gambit-linux)
